@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 360px;
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #333;
+  background: #f4f5f6;
+  overflow-x: hidden;
+  padding-right: 7%;
+  padding-left: 7%;
+}
+
+.navbar {
+  position: relative;
+  background: red;
+}
+
+.date {
+  color: white;
+}
+
+.header {
+  width: 100%;
+}
