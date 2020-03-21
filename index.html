@@ -14,7 +14,7 @@
 <body>
   <header class="d-flex align-items-center">
     <div class="header-top d-flex align-items-center align-items-lg-end justify-content-lg-between w-100">
-<date class="text-white ml-4 mb-2 d-none d-sm-block">Thu, Mar 19, 2020</date>
+<date class="text-white ml-4 d-none d-sm-block">Thu, Mar 19, 2020</date>
 <a href="https://www.newsweek.com/"><img  class="img-logo ml-3 float-sm-left" src="img/logo_main.png"/></a>
 <div class="header-right ml-auto ml-lg-0 order-lg-3 pr-2">
   <a class="header-btn signin-btn text-white font-weight-bold">SIGN IN</a>
@@ -25,21 +25,73 @@
   </header>
   <div class="empty"></div>
   <nav class="navbar d-block bg-light d-sm-none d-md-block"> 
-    <ul class="d-flex align-items-center">
-      <li class="font-weight-bold text-dark mr-3 border-left">U.S</li>
-      <li class="font-weight-bold text-dark mr-3">World</li>
-      <li class="font-weight-bold text-dark mr-3">Business</li>
-      <li class="font-weight-bold text-dark mr-3">Tech & Science</li>
-      <li class="font-weight-bold text-dark mr-3">Culture</li>
-      <li class="font-weight-bold text-dark mr-3">Newsgeek</li>
-      <li class="font-weight-bold text-dark mr-3">Sports</li>
-      <li class="font-weight-bold text-dark mr-3">Health</li>
-      <li class="font-weight-bold text-dark mr-3">The Debate</li>
-      <li class="font-weight-bold text-dark mr-3">Vantage</li>
-      <li class="font-weight-bold text-dark mr-3">Weather</li>
+    <ul class="d-flex align-items-center justify-content-around my-0">
+      <li class="font-weight-bold text-dark border-left-0">U.S</li>
+      <li class="font-weight-bold text-dark">World</li>
+      <li class="font-weight-bold text-dark">Business</li>
+      <li class="font-weight-bold text-dark">Tech & Science</li>
+      <li class="font-weight-bold text-dark">Culture</li>
+      <li class="font-weight-bold text-dark">Newsgeek</li>
+      <li class="font-weight-bold text-dark">Sports</li>
+      <li class="font-weight-bold text-dark">Health</li>
+      <li class="font-weight-bold text-dark">The Debate</li>
+      <li class="font-weight-bold text-dark">Vantage</li>
+      <li class="font-weight-bold text-dark">Weather</li>
+      <li><a href="#" class="text-secondary font-weight-normal pl-0">Search <i class="fa fa-search" aria-hidden="true"></i></a></li>
     </ul>
+    <div class="nav-ribbon"></div>
   </nav>
-  
+  <main>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="column-1 col-12 col-sm-12 col-md-8 col-lg-6 col-xl-6 order-md-2">
+          <div class="article-section-heading text-uppercase text-secondary font-weight-normal">top story</div>
+          <div class="story-container d-flex flex-column">
+            <article class="card top-story-article">             
+              <div class="position-relative">
+                <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1575272/fe-covid-cure-opener.webp?w=591&h=364&l=47&t=40&f=9bf215620b4ecf73f9f6af5b4bb552f6" alt="Article Image"></a>
+                <a class="card-img-category text-uppercase text-danger font-weight-bold" href="">science</a>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title"><a class="card-title-link-primary text-dark font-weight-bold" href="#">Inside the Race for a Coronavirus Cure</a></h3>
+                <p class="card-text">"The pace of the scientific research has been really at a breathtaking speed," says Angela Rasmussan, a virologist and research scientist at Columbia University. "It's unprecedented."</p>
+              </div>
+            </article>
+            <div class="article-section-heading text-uppercase text-secondary font-weight-normal">culture & travel</div>
+            <article class="card culture-travel-article col-md-4 px-md-2">             
+              <div class="position-relative">
+                <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1572738/flight-cancel-refund-reschedule-italy-coronavirus-lockdown.jpg?w=397&h=397&f=78ee008094a5891e78049c5b6beedef5" alt="Article Image"></a>
+                <a class="card-img-culture text-uppercase text-danger font-weight-bold" href="">Italy</a>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title"><a class="card-title-link-culture text-dark font-weight-bold" href="#">Italy Coronavirus Lockdown: How to Reschedule Flights, Receive Refunds</a></h3>
+                <p class="card-text">Ahead of the country-wide lockdown announcement, airlines already started giving customers options to change their travel plans.</p>
+              </div>
+            </article>
+            <article class="card culture-travel-article col-md-4 px-md-2">             
+              <div class="position-relative">
+                <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1572553/restaurants-edge-still.jpg?w=397&h=397&f=fcd42aa2505310a1853036746f9a330c" alt="Article Image"></a>
+                <a class="card-img-culture text-uppercase text-danger font-weight-bold" href="">Netflix</a>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title"><a class="card-title-link-culture text-dark font-weight-bold" href="#">'Restaurants on the Edge': Hosts Dish About New Netflix Show</a></h3>
+                <p class="card-text">Netflix's new food and travel docuseries spans the globe as it makes over failing restaurants that try to get by on their beautiful views alone.</p>
+              </div>
+            </article>
+            <article class="card culture-travel-article col-md-4 px-md-2">             
+              <div class="position-relative">
+                <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1571081/cul-uncharted-stargazing-banner.jpg?w=397&h=397&f=5debbb1743b026c67fa7c79736721c31" alt="Article Image"></a>
+                <a class="card-img-culture text-uppercase text-danger font-weight-bold" href="">Travel</a>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title"><a class="card-title-link-culture text-dark font-weight-bold" href="#">Best Stargazing Spots Around the Globe</a></h3>
+                <p class="card-text">Astrotourism is taking off, and these are the best places—on our planet, at least—to witness the dazzling display of luminous balls of gas that we call stars.</p>
+              </div>
+            </article>
+        </div>
+      </div>
+    </div>
+  </main>
   
 </body>
 </html>
