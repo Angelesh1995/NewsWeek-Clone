@@ -3,6 +3,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   background-color: #eee;
   font-family: 'Roboto Condensed', sans-serif;
@@ -130,4 +131,146 @@ main {
 .story-image {
   width: 100%;
   height: auto;
+}
+
+.card {
+  border: none;
+}
+
+.card-img-category {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #f72210;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+  height: 2rem;
+  line-height: 2rem;
+  padding: 0 1rem;
+  font-weight: 700;
+}
+
+.card-body {
+  padding: 0.625rem 0 0;
+}
+
+.card-title {
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 0.625rem;
+}
+
+.card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.813rem;
+  color: #333;
+}
+
+.card-title-link-primary {
+  color: #000;
+}
+
+.card-title-link-primary:hover {
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
+.card-title-link-secondary {
+  color: #000;
+}
+
+.card-title-link-secondary:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.card-title-link-nohover,
+.card-title-link-nohover:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.card-horizontal {
+  padding: 0.875rem 0;
+  border-top: 1px solid #ddd;
+}
+
+.card-horizontal-title {
+  font-size: 1.063rem;
+  line-height: 1.2;
+}
+
+.card-horizontal-body {
+  padding-top: 0;
+}
+
+.card-img-sized {
+  width: 5.938rem;
+  height: 5.938rem;
+  object-fit: cover;
+  margin-right: 0.938rem;
+}
+
+.card-img-author {
+  margin-right: 0.938rem;
+}
+
+.card-text-author {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #555;
+  margin-top: -0.25rem;
+  margin-bottom: 0;
+}
+
+.feat-stories-article {
+  padding-bottom: 1.25rem;
+}
+
+.culture-travel .card-body {
+  padding: 0.938rem 0 1.25rem;
+}
+
+.culture-travel-article .card-title {
+  font-family: 'Lora', serif;
+  font-weight: normal;
+  font-size: 1.25rem;
+}
+
+.culture-travel .card-text {
+  font-size: 0.938rem;
+  color: rgba(39, 39, 39, 0.5);
+}
+
+.section-heading {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.card-img-culture {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #272727;
+  background-color: #c2d4d7;
+  z-index: 1;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  padding: 0 0.375rem;
+  font-family: Helvetica, sans-serif;
+  font-size: 0.813rem;
+}
+
+.card-img-culture:hover {
+  color: #c2d4d7;
+  background-color: #272727;
+  text-decoration: none;
+}
+
+.card-title-link-culture,
+.card-title-link-culture:hover {
+  text-decoration: none;
+  color: #272727;
 }
