@@ -274,3 +274,51 @@ main {
   text-decoration: none;
   color: #272727;
 }
+
+.debate-article-1 {
+  border-top: 4px solid #f72210;
+}
+
+.debate-article-2 {
+  border-top: 4px solid #1c87fb;
+}
+
+.debate-author-container {
+  padding-top: 0.938rem;
+}
+
+.debate-author {
+  font-size: 0.875rem;
+  line-height: 1;
+  padding-top: 0.938rem;
+  border-top: 4px double #ddd;
+}
+
+.debate-author-link,
+.debate-author-link:hover {
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.debate-author-img {
+  width: 63px;
+  height: 63px;
+  object-fit: cover;
+  z-index: 1;
+  right: 4px;
+  top: 0;
+}
+
+.debate-versus {
+  width: 40px;
+  height: 40px;
+  margin: 1.5rem auto 1.125rem;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 700;
+  background-color: #000;
+  color: #d6d6d6;
+}
