@@ -198,7 +198,6 @@ main {
 
 .card-horizontal {
   padding: 0.875rem 0;
-  border-top: ;
 }
 
 .card-horizontal-title {
@@ -413,11 +412,11 @@ main {
 }
 
 .mt-3, .my-3 {
-  margin-top: 1rem!important;
+  margin-top: 1rem !important;
 }
 
 .mb-2, .my-2 {
-  margin-bottom: .5rem!important;
+  margin-bottom: .5rem !important;
 }
 
 .sign-rectangle {
@@ -489,7 +488,7 @@ main {
 }
 
 .section-subscribe {
-  font-family:  'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   color: #f72210;
   font-size: 16px;
   font-weight: bold;
@@ -510,7 +509,7 @@ main {
 .subscribe-newsletter-heading {
   margin-bottom: 1rem;
   color: #000;
-  font-family:  'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 800;
   font-size: 23px;
 }
