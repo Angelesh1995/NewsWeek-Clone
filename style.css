@@ -444,21 +444,6 @@ main {
   margin-top: 0.625rem;
 }
 
-@media screen and (min-width: 1310px) {
-  .header-btn {
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-  }
-
-  .magazine-article .card-img-top {
-    height: 19vw;
-  }
-
-  .magazine-aftermath .card-img-top {
-    height: 21vw;
-  }
-}
-
 .subscribe-container {
   background-color: #eee;
 }
@@ -566,6 +551,21 @@ main {
   border: none;
 }
 
+@media screen and (min-width: 1310px) {
+  .header-btn {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .magazine-article .card-img-top {
+    height: 19vw;
+  }
+
+  .magazine-aftermath .card-img-top {
+    height: 21vw;
+  }
+}
+
 @media (max-width: 980px) {
   header {
     height: 50px;
@@ -587,9 +587,25 @@ main {
     height: 20px;
     width: auto;
   }
+
+  .newsletter-container {
+    height: calc(100% - 27px);
+  }
+
+  .newsletter-image {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .header-btn {
+    font-size: 1.125rem;
+  }
+
+  .nav-btn {
+    font-size: 1.8rem;
+    margin-left: 1.8rem;
+  }
   .subscribe-newsletter-heading {
     font-size: 1.5rem;
   }
@@ -605,12 +621,3 @@ main {
   }
 }
 
-@media screen and (min-width: 992px) {
-  .newsletter-container {
-    height: calc(100% - 27px);
-  }
-
-  .newsletter-image {
-    width: 50%;
-  }
-}
