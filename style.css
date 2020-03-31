@@ -446,16 +446,16 @@ main {
 
 @media screen and (min-width: 1310px) {
   .header-btn {
-        font-size: 18px;
-        font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
   }
 
-   .magazine-article .card-img-top {
-        height: 19vw;
+  .magazine-article .card-img-top {
+    height: 19vw;
   }
 
-    .magazine-aftermath .card-img-top {
-         height: 21vw;
+  .magazine-aftermath .card-img-top {
+    height: 21vw;
   }
 }
 
@@ -567,17 +567,17 @@ main {
 }
 
 @media (max-width: 980px) {
-    header {
+  header {
     height: 50px;
   }
 
-   .signin-btn {
+  .signin-btn {
     padding-right: 1px;
-}
+  }
 
-.header-right {
+  .header-right {
     padding-right: 10px;
-}
+  }
 
   .empty {
     height: 50px;
@@ -591,27 +591,26 @@ main {
 
 @media screen and (min-width: 768px) {
   .subscribe-newsletter-heading {
-     font-size: 1.5rem;
+    font-size: 1.5rem;
   }
 
   .newsletter-image {
-     width: 191px;
-     height: auto;
+    width: 191px;
+    height: auto;
   }
 
   .editions-list li,
   .footer-links-list li {
-     border-right: 1px solid #ddd;
+    border-right: 1px solid #ddd;
   }
 }
 
 @media screen and (min-width: 992px) {
   .newsletter-container {
-     height: calc(100% - 27px);
+    height: calc(100% - 27px);
   }
 
   .newsletter-image {
-     width: 50%;
+    width: 50%;
   }
 }
-
