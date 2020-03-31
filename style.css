@@ -471,17 +471,17 @@ main {
 }
 
 @media screen and (min-width: 1310px) {
-     .header-btn {
-         font-size: 18px;
-         font-family: 'Roboto', sans-serif;
+  .header-btn {
+      font-size: 18px;
+      font-family: 'Roboto', sans-serif;
   }
 
-      .magazine-article .card-img-top {
-         height: 19vw;
+   .magazine-article .card-img-top {
+      height: 19vw;
   }
 
-      .magazine-aftermath .card-img-top {
-         height: 21vw;
+    .magazine-aftermath .card-img-top {
+       height: 21vw;
   }
 }
 
