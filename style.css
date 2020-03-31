@@ -353,12 +353,6 @@ main {
   font-weight: 700;
 }
 
-.section-heading {
-  font-size: 1rem;
-  font-weight: 700;
-  color: rgba(3, 3, 3, 0.4);
-}
-
 .secondary-heading {
   font-size: 1.188rem;
   color: #333;
@@ -579,10 +573,6 @@ main {
 
    .signin-btn {
     padding-right: 1px;
-}
-
-  .subscribe-btn {
-    margin-right: 0px;
 }
 
 .header-right {
