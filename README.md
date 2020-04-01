@@ -27,7 +27,7 @@ Feel free to check the issues page.
 
 
 # Acknowledgments
-Thanks to anyone whose code was used for inspiration
+Thanks to Felipe, Angel, Ivan, Daniel and Paul. Great friends I have made on this journey.
 
 # License
 This project is MIT licensed.
