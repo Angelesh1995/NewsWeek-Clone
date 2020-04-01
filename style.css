@@ -625,11 +625,8 @@ nav ul li {
   
   .featured-stories1,
   .opinion1 {
-  position: sticky;
-  height: 100%;
-  top: 0;
+     position: sticky;
+     height: 100%;
+     top: 0;
   }
 }
-
-
-
