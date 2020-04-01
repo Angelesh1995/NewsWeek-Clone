@@ -622,7 +622,6 @@ footer {
 }
 
 @media screen and (min-width: 992px) {
-  
   .featured-stories1,
   .opinion1 {
     position: sticky;
