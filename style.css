@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  font-family:'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 body {
@@ -103,8 +103,8 @@ nav ul li {
   color: rgba(3, 3, 3, 0.4);
 }
 
- main,
- footer {
+  main,
+  footer {
   width: 100%;
   max-width: 1310px;
   margin: 0 auto;
