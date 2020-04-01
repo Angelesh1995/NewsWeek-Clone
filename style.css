@@ -21,7 +21,7 @@ header {
   height: 90px;
   padding: 15px;
   background-color: #f72210;
-  position: fixed;
+  position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
   z-index: 100;
@@ -104,11 +104,11 @@ nav ul li {
   color: rgba(3, 3, 3, 0.4);
 }
 
-main {
+ main,
+ footer {
   width: 100%;
   max-width: 1310px;
   margin: 0 auto;
-  height: 1000px;
 }
 
 .main-content {
@@ -551,6 +551,10 @@ main {
   border: none;
 }
 
+.featured-stories2 {
+  display: none !important;
+}
+
 @media screen and (min-width: 1310px) {
   .header-btn {
     font-size: 18px;
@@ -621,4 +625,16 @@ main {
     border-right: 1px solid #ddd;
   }
 }
+
+@media screen and (min-width: 992px) {
+  
+  .featured-stories1,
+  .opinion1 {
+  position: sticky;
+  height: 100%;
+  top: 0;
+  }
+}
+
+
 
