@@ -2,11 +2,11 @@
 
 * {
   box-sizing: border-box;
+  font-family:'Roboto Condensed', sans-serif;
 }
 
 body {
   background-color: #eee;
-  font-family: 'Roboto Condensed', sans-serif;
   min-width: 398px;
   overflow-x: hidden;
   max-width: 100%;
@@ -25,7 +25,6 @@ header {
   left: 50%;
   transform: translate(-50%, 0);
   z-index: 100;
-  font-family: 'Roboto', sans-serif;
 }
 
 .header-right {
@@ -114,10 +113,6 @@ nav ul li {
 .main-content {
   width: 100%;
   height: 1000px;
-}
-
-.story-container {
-  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .story-image {
