@@ -103,8 +103,8 @@ nav ul li {
   color: rgba(3, 3, 3, 0.4);
 }
 
-  main,
-  footer {
+main,
+footer {
   width: 100%;
   max-width: 1310px;
   margin: 0 auto;
@@ -625,8 +625,8 @@ nav ul li {
   
   .featured-stories1,
   .opinion1 {
-     position: sticky;
-     height: 100%;
-     top: 0;
+    position: sticky;
+    height: 100%;
+    top: 0;
   }
 }
