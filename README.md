@@ -8,7 +8,7 @@ This project consists of replicating the news site Newsweek.com using the Bootst
 - BOOTSTRAP
 
 # Live demo link
-The project can be found in this link https://raw.githack.com/Angelesh1995/NewsWeek-Clone/development/index.html
+The project can be found in this [link] (https://raw.githack.com/Angelesh1995/NewsWeek-Clone/development/index.html)
 
 # Author
 
